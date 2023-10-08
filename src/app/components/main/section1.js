@@ -71,7 +71,7 @@ function Slide({data}) {
       <div className="grid md:grid-cols-2">
         {/* col1 */}
         <div className="image ">
-          <Link href={"/"}>
+          <Link href={`/posts/${id}`}>
             <Image href={`/posts/${id}`} src={img} width={600} height={600}></Image>
           </Link>
         </div>
